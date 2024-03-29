@@ -151,6 +151,7 @@ a{
     flex-direction: column;
     padding-bottom: 50px;
     align-items: center ;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -169,4 +170,5 @@ a{
     color: #1F2937;
     padding-left: 40px;
     padding-right: 20px;
+
 }
