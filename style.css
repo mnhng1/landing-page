@@ -2,22 +2,18 @@ body{
     display: flex;
     margin: 0;
     padding: 0;
-
+    flex-direction: column;
+    align-items: center;
 }
 
 .header{
     background-color:#1F2937;
-    
     margin: 0;
     width: 100%;
     padding-top: 5px;
     padding-bottom: 20px;
     justify-content: center;
-    align-items: center;
-    
-    padding-left: 150px;
-    padding-right: 150px;
-
+    align-items: center;   
 }
 
 ul{
@@ -40,11 +36,14 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .nav ul{
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    
 }
 
 .content-header{
@@ -52,11 +51,13 @@ a{
     margin-bottom: 50px;
     display: flex;
     align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .image-placeholder{
     display: flex;
-    width: 700px;
+    width: 500px;
     height: 210px;
     background-color: grey;
     text-align: center;
@@ -70,6 +71,7 @@ a{
     flex-direction: column;
     justify-content: flex-start;
     margin-right: 20px;
+    width: 50%;
 }
 
 .left-content-header h1{
@@ -97,4 +99,57 @@ a{
     font-size: 18px;
     color: #E5E7EB;
     margin-right: 30px;
+}
+
+
+.mid-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #f9faf8;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.mid-section heading{
+    font-family: 'information header', sans-serif;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+.mid-section-content{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: center ;
+}
+
+.box{
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card p {
+    text-align: center;
+    font-family: "Hero Secondary", sans-serif;
+    font-size: 18px;
+    color: #1F2937;
 }
