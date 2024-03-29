@@ -68,7 +68,16 @@ a{
     text-align: center;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
     
+}
+
+.image-placeholder a{
+    font-family: 'Hero New', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+
 }
 
 .left-content-header{
