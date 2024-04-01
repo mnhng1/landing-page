@@ -1,0 +1,1 @@
+This is just a practice styling of CSS, HTML of a holy landing page. s
