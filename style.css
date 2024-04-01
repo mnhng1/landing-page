@@ -4,6 +4,7 @@ body{
     padding: 0;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .header{
@@ -18,8 +19,10 @@ body{
 
 .padding-header{
 
-    padding-left: 180px;
-    padding-right: 180px;
+    
+    display: flex;
+    flex-direction: column;
+    
 
 }
 
@@ -42,8 +45,6 @@ a{
 .top-header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
     
 }
 .nav ul{
@@ -188,7 +189,7 @@ a{
     margin-right: 0;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    
 }
 
 .third-section #Quote{
@@ -279,6 +280,7 @@ a{
     margin-top: 10px;
     color: #f9faf8;
     font-size: 18px;
+   
 }
 
 .footer{
